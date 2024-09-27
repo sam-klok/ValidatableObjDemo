@@ -18,8 +18,7 @@ namespace ValidatableObjDemo
         {
             if (!Enum.IsDefined(typeof(Category), Category))
             {
-                yield return new ValidationResult(
-                    "Invalid Category", new[] { nameof(Category) });
+                yield return new ValidationResult("Invalid Category", new[] { nameof(Category) });
             }
         }
     }
