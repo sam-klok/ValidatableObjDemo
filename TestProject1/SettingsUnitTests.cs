@@ -1,9 +1,9 @@
 using System.ComponentModel.DataAnnotations;
 using ValidatableObjDemo;
 
-namespace TestProject1
+namespace xUnitTestProject
 {
-    public class UnitTest1
+    public class SettingsUnitTests
     {
         [Theory]
         [InlineData(10_000)]
